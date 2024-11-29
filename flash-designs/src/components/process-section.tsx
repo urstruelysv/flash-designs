@@ -1,4 +1,4 @@
-import { ArrowRight, FileEdit, MessageSquare, Send } from "lucide-react";
+import { FileEdit, MessageSquare, Send } from "lucide-react";
 
 export function ProcessSection() {
   return (
@@ -39,7 +39,7 @@ export function ProcessSection() {
                   2. Connect
                 </h3>
                 <p className="text-white/90">
-                  We'll call you to discuss your design
+                  We&apos;ll call you to discuss your design
                 </p>
               </div>
             </div>

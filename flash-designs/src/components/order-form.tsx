@@ -13,27 +13,16 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Calendar } from "@/components/ui/calendar";
-import { format } from "date-fns";
 import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { cn } from "@/lib/utils";
-import { CalendarIcon, Clock } from "lucide-react";
 
 export function OrderForm() {
-  const [date, setDate] = useState<Date>();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -53,7 +42,7 @@ export function OrderForm() {
       }
 
       alert("Order submitted successfully! We will contact you shortly.");
-    } catch (error) {
+    } catch {
       alert("Failed to submit order. Please try again.");
     } finally {
       setIsSubmitting(false);
@@ -72,14 +61,14 @@ export function OrderForm() {
               Your Perfect Design Awaits!
             </h2>
             <p className="mx-auto max-w-[700px] text-xl text-white/90">
-              Fill in the details below, and we'll deliver your design in just
-              60 minutes!
+              Fill in the details below, and we&apos;ll deliver your design in
+              just 60 minutes!
             </p>
           </div>
           <Card className="w-full max-w-2xl bg-white/10 backdrop-blur-sm border-2 border-yellow-400/50">
             <CardHeader>
               <CardTitle className="text-2xl text-white">
-                Let's Get Started!
+                Let&apos;s Get Started!
               </CardTitle>
               <CardDescription className="text-white/90">
                 Express delivery in 60 minutes for just ₹60

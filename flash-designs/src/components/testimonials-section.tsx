@@ -34,8 +34,8 @@ export function TestimonialsSection() {
                       Rahul Kumar
                     </h3>
                     <p className="text-white/90">
-                      "Got my wedding invitation designed in just 45 minutes.
-                      Fantastic service!"
+                      &ldquo;Got my wedding invitation designed in just 45
+                      minutes. Fantastic service!&rdquo;
                     </p>
                   </div>
                 </div>
@@ -58,8 +58,8 @@ export function TestimonialsSection() {
                       Priya Patel
                     </h3>
                     <p className="text-white/90">
-                      "Best ₹60 spent! The designer understood exactly what I
-                      wanted for my shop's poster."
+                      &ldquo;Best &apos;60 spent! The designer understood
+                      exactly what I wanted for my shop&apos;s poster.&rdquo;
                     </p>
                   </div>
                 </div>
@@ -80,8 +80,8 @@ export function TestimonialsSection() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold text-white">Amit Singh</h3>
                     <p className="text-white/90">
-                      "Got my business flyer designed and delivered in under an
-                      hour. Amazing!"
+                      &ldquo;Got my business flyer designed and delivered in
+                      under an hour. Amazing!&rdquo;
                     </p>
                   </div>
                 </div>

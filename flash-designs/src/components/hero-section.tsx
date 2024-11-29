@@ -2,11 +2,8 @@
 
 import { Button } from "@/components/ui/button";
 import { Clock, Palette, Zap } from "lucide-react";
-import { useRouter } from "next/navigation";
 
 export function HeroSection() {
-  const router = useRouter();
-
   return (
     <section className="relative overflow-hidden bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 pt-24 pb-12">
       <div className="absolute inset-0 bg-grid-white/25 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.5))] -z-10" />
